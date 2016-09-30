@@ -1,0 +1,7 @@
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at ConsoleApplication14.DirectorySearch.NewDirectorySearch(String path) in C:\Users\Ilian\documents\visual studio 2015\Projects\ConsoleApplication14\ConsoleApplication14\Program.cs:line 143
+   at ConsoleApplication14.DirectorySearch.Start.Main(String[] args) in C:\Users\Ilian\documents\visual studio 2015\Projects\ConsoleApplication14\ConsoleApplication14\Program.cs:line 231
